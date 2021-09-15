@@ -1,0 +1,20 @@
+<button class="btn01" wx:if="{{nologin}}" bindtap="login">登录</button>
+<view wx:else class="root">
+<view class="title">
+<text class="title-text">关于我</text>
+</view>
+<view class="title-item">
+  <text class="nicheng">{{NickName}}</text>
+<image class="touxiang" src="{{touxiang}}"></image>
+</view>
+</view>
+<button wx:if="{{!nologin}}" bindtap="close">退出</button>
+<view wx:if="{{!nologin}}" class="neirong"> 
+  <van-cell title="73    平均情绪值" icon="smile-o"  />
+  <van-cell title="2     日记数量" icon="records"  />
+</view>
+<van-cell title="情绪管理" icon="like-o" is-link  
+  url="/pages/demo5/demo5"/>
+  <van-cell title="匹配" icon="friends-o" is-link  />
+  <van-cell title="人格测试" icon="fire-o" is-link  />
+  <van-cell title="设置" icon="setting-o" is-link  />

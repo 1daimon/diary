@@ -1,0 +1,21 @@
+{
+  "usingComponents": {
+    "ec-canvas" :"../../ec-canvas/ec-canvas"
+  },
+  "tabBar":{
+    "List":[
+      {
+        "pagePath":"pages/demo5/demo5",
+        "text":"周"
+      },
+      {
+        "pagePath":"pages/demo6/demo6",
+        "text":"月"
+      },
+      {
+        "pagePath":"pages/demo7/demo7",
+        "text":"年"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+.camera{
+  width:200rpx;
+  height:200rpx;
+  margin-top: 100rpx;
+  background-color: slategrey;
+}
+.text{
+  width:750rpx;
+  height:600rpx;
+}
+.reserve{
+  right: 100rpx;
+  position: fixed;
+}
+.title{
+  font-size: 80rpx;
+}

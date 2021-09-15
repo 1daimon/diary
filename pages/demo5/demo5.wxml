@@ -1,0 +1,26 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="周">周</van-tab>
+  <van-tab title="月">月</van-tab>
+  <van-tab title="年">年</van-tab>
+</van-tabs>
+<view class="label">
+<a href="javascript:;"><van-icon name="arrow-left" /></a>
+<text>2021年8月6日至2021年8月12日</text>
+<a href="javascript:;"><van-icon name="arrow" /></a>
+</view>
+<view class="container">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>
+<view class="text">
+<view class="text1">
+<text>1</text>
+<text>累计写日记/天</text>
+</view>
+<view class="text1">
+<text>73</text>
+<text>平均情绪值</text>
+</view>
+</view>
+<view class="chart2">
+  <ec-canvas id="mychart-dom-bar2" canvas-id="mychart-bar2" ec="{{ ec2 }}"></ec-canvas>
+</view>

@@ -1,0 +1,4 @@
+<view class="title">
+<text class="title-text">通知</text>
+</view>
+<view>{{instruct}}</view>

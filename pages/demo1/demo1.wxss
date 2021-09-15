@@ -1,0 +1,6 @@
+.title-text{
+  font-size: 80rpx;
+}
+.title{
+  margin-left: 100rpx;
+}

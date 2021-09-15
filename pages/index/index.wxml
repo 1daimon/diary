@@ -1,0 +1,27 @@
+<van-cell title="选择单个日期" value="{{ date }}" bind:click="onDisplay" />
+<van-calendar show="{{ show }}" bind:close="onClose" poppable="{{ true }}"  position="top" bind:confirm="onConfirm"/>
+<view> {{date}}</view>
+<view class="Items">
+<view class="item">
+<view>
+<text id="title">美滋滋</text>
+</view>
+<view>
+<text id="value">真不错真不错</text>
+</view>
+</view>
+<view class="item">
+<view>
+<text  id="title">hey</text>
+</view>
+<view>
+<text id="value">今天天气真好</text>
+</view>
+</view>
+<view class="item">
+<text>
+{{detail}}
+</text>
+</view>
+</view>
+<van-button class="plus" bind:tap="click" round icon="plus" type="primary" />

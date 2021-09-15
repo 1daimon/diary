@@ -1,0 +1,11 @@
+<view class="plus" wx:if="!{{have}}">
+<button bindtap="insertImage"><image class="camera" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbpic.588ku.com%2Felement_water_img%2F18%2F06%2F14%2Ffdb9ded5bc0d07c7bfd933145969dfab.jpg&refer=http%3A%2F%2Fbpic.588ku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1633002879&t=9c32a10c04c25dc92b85e7e915903c03"></image></button>
+</view>
+<image class="photo" wx:else src="{{src}}"></image>
+<view>
+<text class="title">标题</text>
+<form action="">
+<textarea bindinput="in" maxlength="-1" class="text" value="请输入正文"></textarea>
+</form>
+<van-button bindtap="store" color="green" class="reserve" round type="info" plain>保存</van-button>
+</view>
